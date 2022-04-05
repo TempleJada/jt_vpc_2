@@ -24,7 +24,7 @@ resource "aws_subnet" "public-b" {
     map_public_ip_on_launch = true
 
     tags = {
-        Name = "talent-academy-public-a"
+        Name = "talent-academy-public-b"
     }
 }
 
@@ -46,7 +46,7 @@ resource "aws_subnet" "private-b" {
     map_public_ip_on_launch = true
 
     tags = {
-        Name = "talent-academy-private-a"
+        Name = "talent-academy-private-b"
     }
 }
 
